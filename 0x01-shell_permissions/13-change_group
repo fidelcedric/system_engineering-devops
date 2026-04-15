@@ -1,3 +1,2 @@
 #!/bin/bash
-# Changes the group owner of the file hello to school
 chgrp school hello

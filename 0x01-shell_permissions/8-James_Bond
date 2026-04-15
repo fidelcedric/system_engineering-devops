@@ -1,3 +1,2 @@
 #!/bin/bash
-# Sets permissions for hello: no access for owner/group, all access for others
 chmod 007 hello
