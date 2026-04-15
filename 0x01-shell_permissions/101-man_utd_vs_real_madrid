@@ -1,0 +1,2 @@
+#!/bin/bash
+setfacl -m u::rwx,g::rwx,o::-,u:vincent:rwx,g:staff:rw- hello
