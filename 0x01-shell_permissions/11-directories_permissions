@@ -1,2 +1,3 @@
 #!/bin/bash
-find . -type d -not -path '*/.*' -exec chmod ugo+x {} +
+# Adds execute permission to all subdirectories in current directory for all users
+find . -type d -exec chmod a+x {} +
